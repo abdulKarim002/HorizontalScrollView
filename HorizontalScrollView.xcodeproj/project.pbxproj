@@ -1,0 +1,476 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F42369F11A9F308C00AAF44B /* TripCollectionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F42369F01A9F308C00AAF44B /* TripCollectionCell.swift */; };
+		F42369F51AA0493900AAF44B /* Trip.swift in Sources */ = {isa = PBXBuildFile; fileRef = F42369F41AA0493900AAF44B /* Trip.swift */; };
+		F4C634DD1A9EF7BF003F6D42 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4C634DC1A9EF7BF003F6D42 /* AppDelegate.swift */; };
+		F4C634E21A9EF7BF003F6D42 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F4C634E01A9EF7BF003F6D42 /* Main.storyboard */; };
+		F4C634E41A9EF7BF003F6D42 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F4C634E31A9EF7BF003F6D42 /* Images.xcassets */; };
+		F4C634E71A9EF7BF003F6D42 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = F4C634E51A9EF7BF003F6D42 /* LaunchScreen.xib */; };
+		F4C634F31A9EF7BF003F6D42 /* TripCardTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4C634F21A9EF7BF003F6D42 /* TripCardTests.swift */; };
+		F4C634FF1A9F074E003F6D42 /* TripViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4C634FE1A9F074E003F6D42 /* TripViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F4C634ED1A9EF7BF003F6D42 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F4C634CF1A9EF7BF003F6D42 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F4C634D61A9EF7BF003F6D42;
+			remoteInfo = TripCard;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F42369F01A9F308C00AAF44B /* TripCollectionCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TripCollectionCell.swift; sourceTree = "<group>"; };
+		F42369F41AA0493900AAF44B /* Trip.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Trip.swift; sourceTree = "<group>"; };
+		F4C634D71A9EF7BF003F6D42 /* HorizontalScrollView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HorizontalScrollView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F4C634DB1A9EF7BF003F6D42 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F4C634DC1A9EF7BF003F6D42 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F4C634E11A9EF7BF003F6D42 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F4C634E31A9EF7BF003F6D42 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		F4C634E61A9EF7BF003F6D42 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		F4C634EC1A9EF7BF003F6D42 /* HorizontalScrollView.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HorizontalScrollView.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F4C634F11A9EF7BF003F6D42 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F4C634F21A9EF7BF003F6D42 /* TripCardTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TripCardTests.swift; sourceTree = "<group>"; };
+		F4C634FE1A9F074E003F6D42 /* TripViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TripViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F4C634D41A9EF7BF003F6D42 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F4C634E91A9EF7BF003F6D42 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F42369F61AA0494400AAF44B /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				F42369F41AA0493900AAF44B /* Trip.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		F42369F71AA0496100AAF44B /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				F4C634FE1A9F074E003F6D42 /* TripViewController.swift */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		F42369F81AA0496F00AAF44B /* View */ = {
+			isa = PBXGroup;
+			children = (
+				F42369F01A9F308C00AAF44B /* TripCollectionCell.swift */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		F4C634CE1A9EF7BF003F6D42 = {
+			isa = PBXGroup;
+			children = (
+				F4C634D91A9EF7BF003F6D42 /* TripCard */,
+				F4C634EF1A9EF7BF003F6D42 /* TripCardTests */,
+				F4C634D81A9EF7BF003F6D42 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F4C634D81A9EF7BF003F6D42 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F4C634D71A9EF7BF003F6D42 /* HorizontalScrollView.app */,
+				F4C634EC1A9EF7BF003F6D42 /* HorizontalScrollView.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F4C634D91A9EF7BF003F6D42 /* TripCard */ = {
+			isa = PBXGroup;
+			children = (
+				F42369F81AA0496F00AAF44B /* View */,
+				F42369F71AA0496100AAF44B /* Controller */,
+				F42369F61AA0494400AAF44B /* Model */,
+				F4C634DC1A9EF7BF003F6D42 /* AppDelegate.swift */,
+				F4C634E01A9EF7BF003F6D42 /* Main.storyboard */,
+				F4C634E31A9EF7BF003F6D42 /* Images.xcassets */,
+				F4C634E51A9EF7BF003F6D42 /* LaunchScreen.xib */,
+				F4C634DA1A9EF7BF003F6D42 /* Supporting Files */,
+			);
+			path = TripCard;
+			sourceTree = "<group>";
+		};
+		F4C634DA1A9EF7BF003F6D42 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F4C634DB1A9EF7BF003F6D42 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F4C634EF1A9EF7BF003F6D42 /* TripCardTests */ = {
+			isa = PBXGroup;
+			children = (
+				F4C634F21A9EF7BF003F6D42 /* TripCardTests.swift */,
+				F4C634F01A9EF7BF003F6D42 /* Supporting Files */,
+			);
+			path = TripCardTests;
+			sourceTree = "<group>";
+		};
+		F4C634F01A9EF7BF003F6D42 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F4C634F11A9EF7BF003F6D42 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F4C634D61A9EF7BF003F6D42 /* HorizontalScrollView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F4C634F61A9EF7BF003F6D42 /* Build configuration list for PBXNativeTarget "HorizontalScrollView" */;
+			buildPhases = (
+				F4C634D31A9EF7BF003F6D42 /* Sources */,
+				F4C634D41A9EF7BF003F6D42 /* Frameworks */,
+				F4C634D51A9EF7BF003F6D42 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HorizontalScrollView;
+			productName = TripCard;
+			productReference = F4C634D71A9EF7BF003F6D42 /* HorizontalScrollView.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F4C634EB1A9EF7BF003F6D42 /* HorizontalScrollViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F4C634F91A9EF7BF003F6D42 /* Build configuration list for PBXNativeTarget "HorizontalScrollViewTests" */;
+			buildPhases = (
+				F4C634E81A9EF7BF003F6D42 /* Sources */,
+				F4C634E91A9EF7BF003F6D42 /* Frameworks */,
+				F4C634EA1A9EF7BF003F6D42 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F4C634EE1A9EF7BF003F6D42 /* PBXTargetDependency */,
+			);
+			name = HorizontalScrollViewTests;
+			productName = TripCardTests;
+			productReference = F4C634EC1A9EF7BF003F6D42 /* HorizontalScrollView.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F4C634CF1A9EF7BF003F6D42 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftMigration = 0710;
+				LastSwiftUpdateCheck = 0710;
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = AppCoda;
+				TargetAttributes = {
+					F4C634D61A9EF7BF003F6D42 = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+					F4C634EB1A9EF7BF003F6D42 = {
+						CreatedOnToolsVersion = 6.1.1;
+						TestTargetID = F4C634D61A9EF7BF003F6D42;
+					};
+				};
+			};
+			buildConfigurationList = F4C634D21A9EF7BF003F6D42 /* Build configuration list for PBXProject "HorizontalScrollView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F4C634CE1A9EF7BF003F6D42;
+			productRefGroup = F4C634D81A9EF7BF003F6D42 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F4C634D61A9EF7BF003F6D42 /* HorizontalScrollView */,
+				F4C634EB1A9EF7BF003F6D42 /* HorizontalScrollViewTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F4C634D51A9EF7BF003F6D42 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F4C634E21A9EF7BF003F6D42 /* Main.storyboard in Resources */,
+				F4C634E71A9EF7BF003F6D42 /* LaunchScreen.xib in Resources */,
+				F4C634E41A9EF7BF003F6D42 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F4C634EA1A9EF7BF003F6D42 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F4C634D31A9EF7BF003F6D42 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F4C634FF1A9F074E003F6D42 /* TripViewController.swift in Sources */,
+				F4C634DD1A9EF7BF003F6D42 /* AppDelegate.swift in Sources */,
+				F42369F51AA0493900AAF44B /* Trip.swift in Sources */,
+				F42369F11A9F308C00AAF44B /* TripCollectionCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F4C634E81A9EF7BF003F6D42 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F4C634F31A9EF7BF003F6D42 /* TripCardTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F4C634EE1A9EF7BF003F6D42 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F4C634D61A9EF7BF003F6D42 /* HorizontalScrollView */;
+			targetProxy = F4C634ED1A9EF7BF003F6D42 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F4C634E01A9EF7BF003F6D42 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F4C634E11A9EF7BF003F6D42 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F4C634E51A9EF7BF003F6D42 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F4C634E61A9EF7BF003F6D42 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F4C634F41A9EF7BF003F6D42 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F4C634F51A9EF7BF003F6D42 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F4C634F71A9EF7BF003F6D42 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/TripCard",
+				);
+				INFOPLIST_FILE = TripCard/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Dhlabs.Horizontal-Scroll-View";
+				PRODUCT_NAME = HorizontalScrollView;
+				SWIFT_OBJC_BRIDGING_HEADER = "";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F4C634F81A9EF7BF003F6D42 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/TripCard",
+				);
+				INFOPLIST_FILE = TripCard/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Dhlabs.Horizontal-Scroll-View";
+				PRODUCT_NAME = HorizontalScrollView;
+				SWIFT_OBJC_BRIDGING_HEADER = "";
+			};
+			name = Release;
+		};
+		F4C634FA1A9EF7BF003F6D42 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = TripCardTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.appcoda.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = HorizontalScrollView;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HorizontalScrollView.app/HorizontalScrollView";
+			};
+			name = Debug;
+		};
+		F4C634FB1A9EF7BF003F6D42 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = TripCardTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.appcoda.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = HorizontalScrollView;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HorizontalScrollView.app/HorizontalScrollView";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F4C634D21A9EF7BF003F6D42 /* Build configuration list for PBXProject "HorizontalScrollView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F4C634F41A9EF7BF003F6D42 /* Debug */,
+				F4C634F51A9EF7BF003F6D42 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F4C634F61A9EF7BF003F6D42 /* Build configuration list for PBXNativeTarget "HorizontalScrollView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F4C634F71A9EF7BF003F6D42 /* Debug */,
+				F4C634F81A9EF7BF003F6D42 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F4C634F91A9EF7BF003F6D42 /* Build configuration list for PBXNativeTarget "HorizontalScrollViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F4C634FA1A9EF7BF003F6D42 /* Debug */,
+				F4C634FB1A9EF7BF003F6D42 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F4C634CF1A9EF7BF003F6D42 /* Project object */;
+}
