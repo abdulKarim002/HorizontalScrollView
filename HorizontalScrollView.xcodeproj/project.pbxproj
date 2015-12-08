@@ -87,8 +87,8 @@
 		F4C634CE1A9EF7BF003F6D42 = {
 			isa = PBXGroup;
 			children = (
-				F4C634D91A9EF7BF003F6D42 /* TripCard */,
-				F4C634EF1A9EF7BF003F6D42 /* TripCardTests */,
+				F4C634D91A9EF7BF003F6D42 /* HorizontalScrollView */,
+				F4C634EF1A9EF7BF003F6D42 /* HorizontalScrollViewTest */,
 				F4C634D81A9EF7BF003F6D42 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -102,7 +102,7 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		F4C634D91A9EF7BF003F6D42 /* TripCard */ = {
+		F4C634D91A9EF7BF003F6D42 /* HorizontalScrollView */ = {
 			isa = PBXGroup;
 			children = (
 				F42369F81AA0496F00AAF44B /* View */,
@@ -114,6 +114,7 @@
 				F4C634E51A9EF7BF003F6D42 /* LaunchScreen.xib */,
 				F4C634DA1A9EF7BF003F6D42 /* Supporting Files */,
 			);
+			name = HorizontalScrollView;
 			path = TripCard;
 			sourceTree = "<group>";
 		};
@@ -125,12 +126,13 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		F4C634EF1A9EF7BF003F6D42 /* TripCardTests */ = {
+		F4C634EF1A9EF7BF003F6D42 /* HorizontalScrollViewTest */ = {
 			isa = PBXGroup;
 			children = (
 				F4C634F21A9EF7BF003F6D42 /* TripCardTests.swift */,
 				F4C634F01A9EF7BF003F6D42 /* Supporting Files */,
 			);
+			name = HorizontalScrollViewTest;
 			path = TripCardTests;
 			sourceTree = "<group>";
 		};
